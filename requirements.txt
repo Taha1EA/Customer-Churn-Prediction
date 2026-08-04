@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 pandas
 numpy
@@ -5,3 +6,12 @@ scikit-learn
 plotly
 matplotlib
 joblib
+=======
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
+joblib
+>>>>>>> 8421acaf60f9e739e01bef1167d2d7d3f13d0d5f
