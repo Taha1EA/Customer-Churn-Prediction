@@ -27,7 +27,7 @@ df = load_data()
 # PAGE TITLE
 # ----------------------------------------------------
 
-st.title("📊 Telecom Customer Dashboard")
+st.title(" Telecom Customer Dashboard")
 
 st.markdown("""
 Explore the IBM Telecom Customer Churn dataset.

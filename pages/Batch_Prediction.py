@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 from pathlib import Path
 
 # ---------------------------------------------------
@@ -49,7 +49,7 @@ def load_pickle(path):
         st.stop()
 
     with open(path, "rb") as f:
-        return pickle.load(f)
+        return joblib.load(f)
 
 
 model = load_pickle(MODEL_FILE)

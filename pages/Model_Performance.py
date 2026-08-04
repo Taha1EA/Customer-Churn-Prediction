@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import joblib
 from pathlib import Path
 import matplotlib.pyplot as plt
 
@@ -47,7 +47,7 @@ for file_name in [MODEL_FILE, TRANSFORMER_FILE, DATA_FILE]:
 
 def load_pickle(file_path):
     with open(file_path, "rb") as f:
-        return pickle.load(f)
+        return joblib.load(f)
 
 
 model = load_pickle(MODEL_FILE)
