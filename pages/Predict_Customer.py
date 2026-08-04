@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 
 # ---------------------------------------------------
 # PAGE CONFIGURATION
@@ -16,8 +16,8 @@ st.set_page_config(
 # LOAD MODEL
 # ---------------------------------------------------
 
-model = joblib.load(open("log_reg.pkl", "rb"))
-transformer = joblib.load(open("transformer.pkl", "rb"))
+model = pickle.load(open("log_reg.pkl", "rb"))
+transformer = pickle.load(open("transformer.pkl", "rb"))
 
 # ---------------------------------------------------
 # TITLE
