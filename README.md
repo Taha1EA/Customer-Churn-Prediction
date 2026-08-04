@@ -32,5 +32,3 @@ IBM Telco Customer Churn Dataset
 - Recall
 - F1-score
 - ROC-AUC
-
-## Project Structure
